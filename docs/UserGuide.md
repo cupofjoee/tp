@@ -142,17 +142,17 @@ Shows the questions of the specific flashcard set. Depending on the user command
 #### CASE 1: No storage of answers required
 Starting command: `quiz flset:<setindex>`
 
-Examples: 
+Examples:
 `quiz flset:2`, `quiz flset:3`
 
 As seen below, the first question of the first flashcard within the flashcard set appears, as well as a prompt for the user to type in the next command, `flip` or `cancel`.
 
 - `flip`: Displays the answer to the flashcard question.
-- `cancel`: Stops the quiz 
+- `cancel`: Stops the quiz
 
 <img src="images/question.png" width="200px">
 
-If the command entered is `flip`, the correct answer will be displayed, and there will be a prompt to enter the next command, `c`, `w` or `cancel`. 
+If the command entered is `flip`, the correct answer will be displayed, and there will be a prompt to enter the next command, `c`, `w` or `cancel`.
 Based on the correct answer displayed, evaluate the answer provided. If the question is answered correctly, type `c`. Else, type `w`. This will be taken into account when tabulating the quiz score.
 
 - `c`: Indicate that the question on the flashcard is answered correctly.
@@ -167,17 +167,17 @@ Once the quiz stops, the score will be displayed. This score can be viewed when 
 
 #### CASE 2: Stores the user answers to the quiz
 Starting command: `quiz flset store:<setindex>`
-Examples: 
+Examples:
 `quiz flset store:1`, `quiz flset store:5`
 
 As seen below, the first question of the first flashcard within the flashcard set appears, as well as a prompt for the user to type in the answer to the question, or cancel, <answer> or cancel.
 
 - `<answer>`: Displays the answer to the flashcard question.
-- `cancel`: Stops the quiz 
+- `cancel`: Stops the quiz
 
 <img src="images/question.png" width="200px">
 
-If the user enters the `<answer>`, the correct answer to the question will be displayed, and there will be a prompt to enter the next command, `c`, `w` or `cancel`. 
+If the user enters the `<answer>`, the correct answer to the question will be displayed, and there will be a prompt to enter the next command, `c`, `w` or `cancel`.
 Based on the correct answer displayed, evaluate the answer provided. If the question is answered correctly, type `c`. Else, type `w`. This will be taken into account when tabulating the quiz score.
 
 - `c`: Indicate that the question on the flashcard is answered correctly.
@@ -201,7 +201,7 @@ It comprises of the following information:
 <img src="images/view score.png" width="200px">
 
 Format: `view flset quiz:<setname>`
-Examples: 
+Examples:
 `view flset quiz:9`, `view flset quiz:16`
 
 ### Add a task
@@ -237,14 +237,14 @@ Examples:
 Finds the tasks whose information contains any of the given keywords.
 Format: `search task:<keyword>`
 
-Basic Usage: 
+Basic Usage:
 - The search is case-insensitive. e.g. homework will match Homework
 - The order of the keywords does not matter. e.g. CS2103T topics will match topics CS2103T
 - Start_time, period and name of the tasks are all searched
 - Partial word would match e.g. CS2013 matches CS2103T
 
 Advanced Usage:
-- or search: Tasks matching at least one keyword will be returned e.g. CS2103T CS2101 ST2334 will return CS2103T homework, CS2101 homework, and ST2334 homework 
+- or search: Tasks matching at least one keyword will be returned e.g. CS2103T CS2101 ST2334 will return CS2103T homework, CS2101 homework, and ST2334 homework
 - and search (search is and search by default): Tasks matching all the keywords will be returned e.g. CS2103t week 7, will return CS2103T homework week 7
 
 Examples: <br />
