@@ -262,7 +262,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 
 ### Use cases
 
-(For all use cases below, the **System** is the `StudyBanana` and the **Actor** is the `user`, unless specified otherwise)  
+(For all use cases below, the **System** is the `StudyBanana` and the **Actor** is the `user`, unless specified otherwise)
 
 **Use case: Quiz of flashcard set (no storage of answer)**
 
@@ -275,21 +275,21 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 5.  User indicates whether the input answer is correct or incorrect
 6.  StudyBanana loads the next flashcard
 7.  User can stops the quiz at point in time
-    
-    Use case ends.  
-    
+
+    Use case ends.
+
 **Extensions**
 
 * 2a. The flashcard set is empty.
 
   Use case ends.
-  
+
 * 2b. The flashcard set does not exist.
-  
-  StudyBanana shows an error message.  
-  
+
+  StudyBanana shows an error message.
+
 * 5a. The answer indicator is invalid
-  
+
   StudyBanana shows an error message. User case resumes at step 5
 
 **Use case: Delete a given task from the list**
@@ -316,8 +316,6 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
       Use case resumes at step 2.
 
 
-
-1.  
 *{More to be added}*
 
 ### Non-Functional Requirements
@@ -328,7 +326,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 4.  The product should be for a single user.
 5.  The product should be usable by a student who has little to much experience in using computer.
 6.  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
-7.  The data should be stored locally and should be in a human editable text file. 
+7.  The data should be stored locally and should be in a human editable text file.
 
 
 
