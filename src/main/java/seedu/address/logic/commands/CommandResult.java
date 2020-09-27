@@ -65,7 +65,9 @@ public class CommandResult {
 
     @Override
     public int hashCode() {
+        System.out.println(feedbackToUser);
+        System.out.println(showHelp);
+        System.out.println(exit);
         return Objects.hash(feedbackToUser, showHelp, exit);
     }
-
 }
